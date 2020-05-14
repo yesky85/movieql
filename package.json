@@ -1,0 +1,22 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "Moive API with GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/yesky85/movieql.git",
+  "author": "kec <yesky85@nate.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/runtime": "^7.9.6",
+    "axios": "0.18.0",
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
+}

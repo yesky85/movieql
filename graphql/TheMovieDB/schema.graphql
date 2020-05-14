@@ -1,0 +1,11 @@
+type Movie {
+  id: Int!
+  original_title: String!
+  vote_average: Float!
+  release_date: String!
+  poster_path: String!
+}
+
+type Query {
+  movies: [Movie]!
+}

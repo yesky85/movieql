@@ -1,0 +1,15 @@
+type Movie {
+  id: Int!
+  title: String!
+  year: Int
+  rating: Float
+  genres: [String]
+  description_intro: String
+  medium_cover_image: String
+}
+
+type Query {
+  movies(limit: Int): [Movie]!
+  movie(id: Int!): Movie
+  suggestions(id: Int!): [Movie]
+}
